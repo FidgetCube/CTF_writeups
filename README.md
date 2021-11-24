@@ -1,3 +1,1 @@
-# DEADFACE CTF 2021
 
-![]("DEADFACE CTF.png")
