@@ -2,7 +2,7 @@
 
 # DEADFACE CTF 2021
 
-## Sumarry
+## Summary
 > I competed in this CTF on my own and finished with x points in x place
 > 
 ## Categories
