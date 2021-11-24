@@ -3,7 +3,7 @@
 # DEADFACE CTF 2021
 
 ## Summary
-> I competed in this CTF on my own and finished with x points in x place
+> I competed in this CTF on my own and finished with 2,100 points in 197th place
 > 
 ## Categories
 
