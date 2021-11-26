@@ -24,3 +24,8 @@ These are just a few writeups from challenges i have solved. I don't do these of
 
 + OverTheWire - Bandit
 + CTFlearn
+
+## For guides on specific techniques
+
++ [.pdf password cracking](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
++ 
