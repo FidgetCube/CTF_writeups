@@ -7,4 +7,4 @@
 ## Solution
 
 I downloaded the provided zip file and extracted the email contained inside. Opening the email in Sublime, i can see that the email has a .pdf attachment.
-<p align="center"><img src="emailpdf.png"></p>
+<p align="center"><img src="_images/emailpdf.png"></p>
