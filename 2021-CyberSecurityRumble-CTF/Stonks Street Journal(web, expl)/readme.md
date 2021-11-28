@@ -2,7 +2,7 @@
 
 ## Description
 
->No Description (pretty brutal huh)[Link to webApp](http://ssj.rumble.host/)
+>No Description (pretty brutal huh) [Link to webApp](http://ssj.rumble.host/)
 
 ## Solution
 
