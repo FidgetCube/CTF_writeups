@@ -4,6 +4,11 @@
 
 >I really want to know my test result, but unfortunately its additionally protected. I attached the email. Maybe you can help?
 
+## Provided Resources
+
+[Attached email file](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-CyberSecurityRumble-CTF/Result(misc%2Ccrypto)/providedFile.eml)
+
+
 ## Solution
 
 ### Downloading the required file
