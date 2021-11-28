@@ -16,7 +16,11 @@ There is also reference to password protection and the structure of the password
 
 ### Extracting the .pdf
 
-Next step was to extract the .pdf file from the email so i copy the block of base64 encoded data and paste it into cyberchef. Adding the "from base64" recipe you can see the .pdf file in the results section. I saved the file to my local machine and tried to open it, where i was met with a password prompt.
+Next step was to extract the .pdf file from the email so i copy the block of base64 encoded data from the email and paste it into cyberchef. Add the "from base64" recipe and you can see the .pdf file in the results section. 
+<p align="center"><img src="_images/recipe.png"></p>
+<p align="center"><img src="_images/output.png"></p>
+
+I saved the file to my local machine and tried to open it, where i was met with a password prompt.
 <p align="center"><img src="_images/passwordprompt.png"></p>
 
 I'm going to use johnTheRipper to crack the password since i know the password is a series of numbers so an existing wordlist will not help. For this i need 2 things, firstly i need to extract the hash from the file using pdf2john.pl and the second thing i need to do is generate a wordlist containing zipcodes to bruteforce the password.
