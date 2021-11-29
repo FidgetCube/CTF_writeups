@@ -23,7 +23,8 @@ Clicking on the link to the invoice i was presented with an invoice containing a
 Of note however, was the URI. We are now at http://ssj.rumble.host/legacy_invoice_system/YnVycF9ndXktMjAyMS0xMS0yOA==.
 <p align="center"><img src="_images/invoiceURI.png"></p>
 
-First step i took was to take the base64 encoded string at the end of the URI and decode it **This value will change in most images throughout this writeup as i fiddled with it and took screenshots at differing stages. I copied and pasted it into cyberchef with the "From base64" recipe and discovered that it is just made up of the username i chose and the date the account was created in the following format.
+First step i took was to take the base64 encoded string at the end of the URI and decode it **This value will change in most images throughout this writeup as i fiddled with it and took screenshots at differing stages. ** 
+I copied and pasted it into cyberchef with the "From base64" recipe and discovered that it is just made up of the username i chose and the date the account was created in the following format.
 <p align="center"><img src="_images/sqli_b64.png"></p>
 <p align="center"><img src="_images/b64Decoded.png"></p>
 
