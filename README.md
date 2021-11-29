@@ -16,7 +16,7 @@ These are just a few writeups from challenges i have solved. I don't do these of
 + 2021 Pico CTF
 + 2020 ADF Cyber Skills Challenge
 + 2020 DUCTF
-+ 2020 Splunk CTF
++ 2020 Splunk Boss Of The SOC (BOTS)
 + 2019 Bsides CTF
 + 2019 Secure Code Warrior
 
