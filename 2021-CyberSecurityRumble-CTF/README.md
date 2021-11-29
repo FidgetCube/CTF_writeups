@@ -1,4 +1,4 @@
-<p align="center"><img src=" "></p>
+<p align="center"><img src="logo.png"></p>
 
 # CyberSecurityRumble CTF 2021
 
