@@ -31,7 +31,7 @@ I copied and pasted it into cyberchef with the "From base64" recipe and discover
 So now i had the idea to try and modify this value and see if i can find the flag in someone elses invoice. Naturally i changed the username to Administrator, re-encoded it in base64 using cyberchef and then pasted it in the URL bar substituting the previous value that was there. Boom! Administrators invoice however nothing of value from this.  
 <p align="center"><img src="_images/adminInvoice.png"></p>
 
-So i continued crafting strings with different peoples names to see what i could find. When i entered a first and last name separated by a space however, i received a different kind of response.
+So i continued crafting strings with different peoples names to see what i could find. When i entered a first and last name separated by a hyphen however, i received a different kind of response. This was due to the backend expected only a date after the first hyphen in format '-yyyy-mm-dd'
 <p align="center"><img src="_images/sql_plain.png"></p>
 <p align="center"><img src="_images/SQLi_clue.png"></p>
 
