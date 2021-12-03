@@ -1,19 +1,9 @@
-<p align="center"><img src="logo.png" width="300" Hieght=""></p>
+<p align="center"><img src="logo.png" width="300"></p>
 
 # Cyber Skills Challenge CTF 2021
 
 ## Summary
 > I competed in this CTF on my own and finished with 5900 points in equal 65th place
 
-## Categories
-
-### Crypto
-* Challenge 1
-* Challenge 2
-* Challenge 3
-
-### Web
-* Challenge 1
-* Challenge 2
-* Challenge 3
+<p align="center"><img src="scoreboard.png"></p>
 
