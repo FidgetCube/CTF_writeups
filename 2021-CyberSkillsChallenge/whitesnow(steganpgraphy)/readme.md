@@ -5,7 +5,7 @@ White, snow or maybe both?
 
 ## Resources
 
-[Provided file]()
+[Provided file](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-CyberSkillsChallenge/whitesnow(steganpgraphy)/input.txt)
 
 ## Solution
 
