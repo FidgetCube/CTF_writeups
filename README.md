@@ -6,7 +6,7 @@ These are just a few writeups from challenges i have solved. I don't do these of
 ## Some of the CTFs I have competed in
 
 + 2021 Cyber Skills Challenge (ADF) 
-+ 2021 CyberSecurityRumble CTF
++ [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
 + 2021 DEADFACE CTF
 + 2021 DUCTF 
 + 2021 CorCTF
