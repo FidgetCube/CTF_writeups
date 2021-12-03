@@ -8,7 +8,7 @@ I always keep a copy of my mp3s :) (or is it the case ?)
 
 ## Resources
 
-[Provided files]()
+[Provided files](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-CyberSkillsChallenge/Stereo%3F(steganography)/providedFiles)
 
 ## Solution
 
