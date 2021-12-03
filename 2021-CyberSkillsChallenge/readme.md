@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.png"></p>
+<p align="center"><img src="logo.png" width="400" Hieght=""></p>
 
 # Cyber Skills Challenge CTF 2021
 
