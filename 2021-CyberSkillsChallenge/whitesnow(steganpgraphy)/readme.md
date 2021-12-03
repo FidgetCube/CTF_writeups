@@ -1,6 +1,9 @@
 # Whitesnow (Steganography) 
 
 ## Description
+
+100 Points
+
 White, snow or maybe both?
 
 ## Resources
