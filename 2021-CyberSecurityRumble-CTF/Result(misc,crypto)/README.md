@@ -1,4 +1,4 @@
-# Result (misc, Crypto)
+# Result (Misc, Crypto)
 
 ## Description
 
