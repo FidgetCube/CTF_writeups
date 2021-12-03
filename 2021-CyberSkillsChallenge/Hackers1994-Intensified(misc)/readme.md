@@ -1,4 +1,4 @@
-# Hackers1994-Intensified (misc) 
+# Hackers1994-Intensified (misc) 100 Points 
 
 ## Description
 
