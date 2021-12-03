@@ -8,7 +8,7 @@ James got an zip file with a passphrase. Along with the zip file there is a musi
 
 ## Resources
 
-[Provided files]()
+[Provided files](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-CyberSkillsChallenge/Hackers1994-Intensified(misc)/providedFiles)
 
 ## Solution
 
