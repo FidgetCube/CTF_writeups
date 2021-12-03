@@ -2,7 +2,8 @@
 
 ## Description
 
-100 Points 
+100 Points
+
 James got an zip file with a passphrase. Along with the zip file there is a music file listen to it and use it wisely.
 
 ## Resources
