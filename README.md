@@ -29,4 +29,5 @@ These are just a few writeups from challenges i have solved. I don't do these of
 ## Guides on specific techniques
 
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
-+ [SQL Injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
++ [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
++ [.mp3 audio steganography with Null Cipher](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Stereo%3F(steganography))
