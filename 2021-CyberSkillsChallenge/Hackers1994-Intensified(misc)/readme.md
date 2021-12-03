@@ -1,7 +1,8 @@
-# Hackers1994-Intensified (misc) 100 Points 
+# Hackers1994-Intensified (misc) 
 
 ## Description
 
+100 Points 
 James got an zip file with a passphrase. Along with the zip file there is a music file listen to it and use it wisely.
 
 ## Resources
