@@ -1,4 +1,4 @@
-# Whitesnow(STEG) 
+# Whitesnow (Steganography) 
 
 ## Description
 White, snow or maybe both?
