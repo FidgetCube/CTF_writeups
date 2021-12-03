@@ -34,7 +34,7 @@ Here i opened the file original_mono.mp3 in a project in audacity. Then i import
 <p align="center"><img src="_images/5audacity.png"></p>
 
 It's time to select either track by double clicking on it, either will work, and with only one file selected click >Effect>Invert.
-<p align="center"><img src="_images/6invert.png"></p>
+<p align="center"><img src="_images/6invert.PNG"></p>
 
 Now i need to add both tracks together so we can sort out the difference between the two. Select all and click >Tracks>Mix>Mix and Render. Only a small amount of sound is remaining the in waveform and if you listen to it, it's morse code. You can stretch the waveform out and see the morse code quite clearly in front of you.
 <p align="center"><img src="_images/7morse.png"></p>
