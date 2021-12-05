@@ -8,7 +8,7 @@ You'll need to dig deep to find this one
 
 ## Resources
 
-[Provided files]()
+[Provided files](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography)/providedFiles)
 
 ## Solution
 
