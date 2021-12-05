@@ -21,6 +21,7 @@ I scroll down and find on the bottom line a clue related to the password being i
 Next step was to shazam the song to get the artists name and the arist and song came back to Randall - Wahran.
 
 Now i had to switch to my local windows machine because the Nakasoft steg tool Xiao is Windows only and it is always a great idea to extract hidden data with the same tool that was used to conceal it in the first place. I loaded up the program and pointed to the .wav file. The program isn't super intuitive for first time users but the program displays 3 items in the window that can be extracted from the .wav file, if you know the password. The program however doesn't offer any kind of feedback whether you enter the correct password or not. I entered "RANDALL" in caps as per the clue in the note and extracted the 3 items.
+<p align="center"><img src="_images/emailpdf.png"></p>
 
 In this case, the fact that the 3 files extract correctly and I can see a thumbnail for a .jpg suggests that i entered the password correctly. If you try to extract the same files with the incorrect password you are likely to either get random data or none at all. 
 
