@@ -27,10 +27,12 @@ These are just a few writeups from challenges i have solved. I don't do these of
   
 ---
 
-### Permanent CTFs
+## Permanent CTFs
 
 + OverTheWire - Bandit
 + CTFlearn
+
+---
 
 ## Guides on specific techniques
 
