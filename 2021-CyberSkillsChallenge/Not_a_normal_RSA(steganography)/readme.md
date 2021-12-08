@@ -1,4 +1,4 @@
-# Not a normal RSA (steganography) 
+# Not a normal RSA (cryptography) 
 
 ## Description
 
