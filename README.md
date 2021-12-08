@@ -5,6 +5,9 @@ These are just a few writeups from challenges i have solved. I don't do these of
 
 ## Some of the CTFs I have competed in
 
+<details>
+  <summary>Click to expand</summary>
+  
 + [2021 Cyber Skills Challenge (ADF)](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
 + [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
 + [2021 DEADFACE CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF)
@@ -20,6 +23,8 @@ These are just a few writeups from challenges i have solved. I don't do these of
 + 2020 Splunk Boss Of The SOC (BOTS)
 + 2019 Bsides CTF
 + 2019 Secure Code Warrior
+</details>
+  
 
 ### Permanent CTFs
 
