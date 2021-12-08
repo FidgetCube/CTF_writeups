@@ -47,6 +47,10 @@ These are just a few writeups from challenges i have solved. I don't do these of
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
 + [zip archive cracking]
 
+### Cryptography
+
++ [RSA Weiner attack](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
+
 ### SQLi
 
 + [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
