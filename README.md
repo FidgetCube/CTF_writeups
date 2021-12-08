@@ -1,7 +1,7 @@
 
 # Welcome
 
-These are just a few writeups from challenges i have solved. I don't do these often becuase i don't like to waste time doing writeups when i could be solving more challenges.
+These are just a few writeups from some interesting challenges i have solved. I don't do these often because i don't like to spend time creating writeups when i could be solving more challenges.
 
 ### Some of the CTFs I have competed in
 
