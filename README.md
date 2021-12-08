@@ -3,7 +3,7 @@
 
 These are just a few writeups from challenges i have solved. I don't do these often becuase i don't like to waste time doing writeups when i could be solving more challenges.
 
-## Some of the CTFs I have competed in
+### Some of the CTFs I have competed in
 
 <details>
   <summary>Click to reveal</summary>
@@ -42,18 +42,18 @@ These are just a few writeups from challenges i have solved. I don't do these of
 
 ### Steganography
 
-+ [.mp3 audio Null Cipher steganography decoding with Audacity](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Stereo%3F(steganography))
++ [Audio(.mp3) Null Cipher steganography decoding with Audacity](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Stereo%3F(steganography))
++ [Audio(.wav) steganography with Nakasoft Xiao steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 + [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
-+ [.wav audio steganography with Nakasoft Xiao steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 
 ### Cryptography
 
-+ [RSA Weiner attack](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
++ [RSA Weiner attack on large *e*](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
 
 ### Password cracking
 
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
-+ [zip archive cracking]
++ [.zip archive cracking]
 
 ### SQLi
 
