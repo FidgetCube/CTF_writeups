@@ -6,7 +6,7 @@ These are just a few writeups from challenges i have solved. I don't do these of
 ## Some of the CTFs I have competed in
 
 <details>
-  <summary>Click to expand</summary>
+  <summary>Click to reveal</summary>
   
 + [2021 Cyber Skills Challenge (ADF)](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
 + [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
@@ -39,7 +39,7 @@ These are just a few writeups from challenges i have solved. I don't do these of
 + [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
 + [.wav audio steganography with Nakasoft Xiao steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 
-### Cracking
+### Password cracking
 
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
 + [zip archive cracking]
