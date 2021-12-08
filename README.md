@@ -25,6 +25,7 @@ These are just a few writeups from challenges i have solved. I don't do these of
 + 2019 Secure Code Warrior
 </details>
   
+---
 
 ### Permanent CTFs
 
