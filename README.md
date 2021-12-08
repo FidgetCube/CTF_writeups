@@ -29,8 +29,12 @@ These are just a few writeups from challenges i have solved. I don't do these of
 
 ## Permanent CTFs
 
+<details>
+  <summary>Click to reveal</summary>
+
 + OverTheWire - Bandit
 + CTFlearn
+</details>
 
 ---
 
@@ -42,14 +46,14 @@ These are just a few writeups from challenges i have solved. I don't do these of
 + [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
 + [.wav audio steganography with Nakasoft Xiao steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 
+### Cryptography
+
++ [RSA Weiner attack](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
+
 ### Password cracking
 
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
 + [zip archive cracking]
-
-### Cryptography
-
-+ [RSA Weiner attack](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
 
 ### SQLi
 
