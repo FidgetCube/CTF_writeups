@@ -1,13 +1,18 @@
-<!--- CTF URL here --->
-[CyberSecurityRumble CTF 2021](https://ctf.cybersecurityrumble.de/problems/)
+# Name (category) 
 
-<!--- Challenge Description --->
+## Description
 
-
-
-<!--- Steps --->
+200 points  
 
 
+## Resources
 
-<!--- Flag --->
+[Provided file]()
+
+## Solution
+
+
+<p align="center"><img src="_images/3dcode.png"></p>
+
+<p align="center"><img src="_images/5solve.png"></p>
 
