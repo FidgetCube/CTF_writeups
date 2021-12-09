@@ -59,3 +59,8 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 + [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
 
+### Misc
+
++ [Game hacking in Python](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF/TrickOrTreat(programming))
+
+
