@@ -7,7 +7,7 @@ An email, containing a photo of pumpkin, was found in an employee's Gmail inbox.
 
 ## Resources
 
-[Provided image](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/2311432%40.jpg)  
+[Provided image](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/providedImage.jpg)  
 [Extracted zip archive](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/corrupted.zip)
 
 ## Solution
