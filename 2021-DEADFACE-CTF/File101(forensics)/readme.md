@@ -36,9 +36,11 @@ Extracting the zip archive gives you an image 'FOR0.png' however, attempting to 
 <p align="center"><img src="_images/1corrupted.png"></p>
 
 Rebuild the JPEG header by changing the first 4 bytes to the following, 
->FF D8 FF E0  
+>FF D8 FF E0
+
 This should be enough to open the file but technically the bytes at offset 06 07 08 should also be changed to reflect, 
->46 49 46  
+>46 49 46
+
 <p align="center"><img src="_images/2repair.png"></p>
 
 Rename the file as a JPEG and open the image.
