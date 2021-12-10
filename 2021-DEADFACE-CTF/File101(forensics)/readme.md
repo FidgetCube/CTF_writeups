@@ -12,7 +12,9 @@ An email, containing a photo of pumpkin, was found in an employee's Gmail inbox.
 
 ## Solution
 
-Provided the following image
+### Examine the image file
+
+The following image file was provided.
 <p align="center"><img src="providedImage.jpg"></p>
 
 Running strings over the image reveals a drop box location 
@@ -21,7 +23,7 @@ Running strings over the image reveals a drop box location
 
 Navigating to the dropbox location downloads a zip archive "corrupted.zip" which is password protected and contains a .png file.
 
-## Cracking password
+### Cracking password
 
 I used john to crack the zip password. First step is to extract the password hash from the file using the following command, so we can perform offline cracking on the hash.
 >zip2john corrupted.zip > hash.txt
@@ -31,6 +33,8 @@ Crack the hash using the rockyou wordlist
 
 the cracked password is 'pumpkinpie'
 <p align="center"><img src="_images/cracked.png"></p>
+
+### Repairing the file header
 
 Extracting the zip archive gives you an image 'FOR0.png' however, attempting to open the image you get an error that the file is corrupted. So, time to open it up in a hex editor and see whats under the hood. You can see the JFIF in the ASCII view on the right which is part of a JPEG file header so this isn't a PNG, it's actually a JPEG with a corrupted file header. 
 <p align="center"><img src="_images/1corrupted.png"></p>
@@ -45,9 +49,9 @@ This should be enough to open the file but technically the bytes at offset 06, 0
 
 Rename the file as a JPEG and open the image.
 
+### Flag
+
 When the image is open there is a cheeky attempt to trick you but a keen eye will notice the flag in the bottom right corner.
 <p align="center"><img src="_images/3flag.png"></p>
-
-## Flag
 
 Flag{Easy_Right}
