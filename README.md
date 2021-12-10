@@ -53,7 +53,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### Password cracking
 
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
-+ .zip archive password cracking with rockyou wordlist
++ [.zip archive password cracking with rockyou wordlist](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/readme.md)
 
 ### Forensics
 
