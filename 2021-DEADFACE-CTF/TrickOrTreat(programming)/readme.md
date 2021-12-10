@@ -349,10 +349,10 @@ So now it's time to pick the code apart. We assume that the flag is printed once
 The simplest way to beat this game, but the least fun, was to find the section where the game tests if you have a high enough score and prints the flag, and then just call the function to print the flag in main() so that it prints when the game starts.
 <p align="center"><img src="_images/printFlag.png"></p>
 
-The fun way to tackle this was to modify game paramters to cheat the game. For instance you could remove the line of code that tested for a collison between the character and the reaper so you effectively had god mode and couldn't die.
+The fun way to tackle this was to modify game parameters to cheat the game. For instance you could comment out or remove the line of code that tested for a collison between the character and the reaper so you effectively had god mode and couldn't die.
 <p align="center"><img src="_images/godMode.png"></p>
 
-I was impatient so at first i sped the grim reapers up so that 100 came down in about 2 seconds so it was really quickly, then i decided to just award 100 points for each successful dodge so that you only had to dodge 1 enemy to beat the game. Of course you could initialise your starting score to 100, or change the value you need to achieve before it prints so that you only need to dodge one. I also changed the X axis of where the reapers spawned so that they didn't spawn in the left third of the game so you could move your character to the left of the screen where no reapers would spawn and just watch as they passed and the score went up. I had way more fun modifying this game well after i had actually printed the flag. 
+I was impatient at first so i sped the grim reapers up so that 100 came down in about 2 seconds so it was really quickly, then i decided to just award 100 points for each successful dodge so that you only had to dodge 1 enemy to beat the game. Of course you could initialise your starting score to 100, or change the value you need to achieve before it prints so that you only need to dodge one. I also changed the X axis of where the reapers spawned so that they didn't spawn in the left third of the game so you could move your character to the left of the screen where no reapers would spawn and just watch as they passed and the score went up. I had way more fun modifying this game well after i had actually printed the flag. 
 <p align="center"><img src="_images/fun.png"></p>
 
 Flag{CaNT_ch34t_d34th}
