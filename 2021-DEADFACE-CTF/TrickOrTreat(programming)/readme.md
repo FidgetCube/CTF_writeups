@@ -342,7 +342,7 @@ It was a cool little game where the object was to move the character and avoid t
 <p align="center"><img src="_images/2game.png"></p>
 
 If the grim reaper touched you then you died and the game ended.
-<p align="center"><img src="_images/2game.png"></p>
+<p align="center"><img src="_images/3dead.png"></p>
 
 So now it's time to pick the code apart. We assume that the flag is printed once you reach a certain score so we go looking for that part in the code and quickly realise the code is mildly obfuscated, mostly just by poor variable names that lack any meaning or description. 
 
