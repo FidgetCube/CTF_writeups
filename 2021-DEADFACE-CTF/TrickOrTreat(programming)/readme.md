@@ -8,7 +8,7 @@ Submit the flag as: flag{flag-goes-here}.
 
 ## Resources
 
-[Provided Python file]()
+[Provided game files](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/TrickOrTreat(programming)/game.zip)
 
 ## Solution
 
