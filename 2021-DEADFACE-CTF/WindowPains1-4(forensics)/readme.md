@@ -21,7 +21,7 @@ Inspect the memory dump and tell us the Windows Major Operating System Version, 
 Example: flag{WindowsXP_32_202110150900}
 
 
-## Solution
+### Solution
 
 
 <p align="center"><img src="_images/3dcode.png"></p>
@@ -33,12 +33,12 @@ Example: flag{WindowsXP_32_202110150900}
 
 # Window Pains 2
 
-## Description
+### Description
 
 30 points  
 
 
-## Solution
+### Solution
 
 
 <p align="center"><img src="_images/3dcode.png"></p>
