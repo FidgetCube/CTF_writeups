@@ -116,18 +116,17 @@ In this case, one way of narrowing down the process to investigate was using the
 ```
 Volatility 3 Framework 2.0.0
 
-PID	    PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	    File output
-
+PID	    PPID	ImageFileName	Offset(V)   	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	    File output
 --- snip ---
-10500	5300	SearchProtocol	0x9a0784e560c0	6	  -     	0      	False	2021-09-07 14:53:47.000000 	N/A	Disabled
-4064	668	    svchost.exe	    0x9a078458e080	5	  -         0	    False	2021-09-07 14:54:56.000000 	N/A	Disabled
-10008	668	    svchost.exe	    0x9a0785ce2080	4	  - 	    0       False	2021-09-07 14:55:12.000000 	N/A	Disabled
-5948	668	    svchost.exe	    0x9a078553c080	3	  - 	    0       False	2021-09-07 14:55:13.000000 	N/A	Disabled
-8180	2252	userinit.exe	0x9a07843ab080	3	  - 	    1       True	2021-09-07 14:55:55.000000 	N/A	Disabled
-5864	5300	SearchFilterHo	0x9a0784d4d080	4	  - 	    0       False	2021-09-07 14:56:16.000000 	N/A	Disabled
-3652	7120	msedge.exe	    0x9a0784da7080	36	  - 	    1       False	2021-09-07 14:56:33.000000 	N/A	Disabled
-6032	3652	msedge.exe	    0x9a0785218080	8	  - 	    1       False	2021-09-07 14:56:33.000000 	N/A	Disabled
-7008	3652	msedge.exe	    0x9a07851dc080	18	  - 	    1       False	2021-09-07 14:56:34.000000 	N/A	Disabled
+10500	5300	SearchProtocol	0x9a0784e560c0	6   	  -     	0      	False	2021-09-07 14:53:47.000000 	N/A	Disabled
+4064	668	  svchost.exe	    0x9a078458e080	5   	  -       0 	    False	2021-09-07 14:54:56.000000 	N/A	Disabled
+10008	668	  svchost.exe	    0x9a0785ce2080	4   	  - 	    0       False	2021-09-07 14:55:12.000000 	N/A	Disabled
+5948	668	  svchost.exe	    0x9a078553c080	3   	  - 	    0       False	2021-09-07 14:55:13.000000 	N/A	Disabled
+8180	2252	userinit.exe	  0x9a07843ab080	3   	  - 	    1       True	2021-09-07 14:55:55.000000 	N/A	Disabled
+5864	5300	SearchFilterHo	0x9a0784d4d080	4   	  - 	    0       False	2021-09-07 14:56:16.000000 	N/A	Disabled
+3652	7120	msedge.exe	    0x9a0784da7080	36  	  - 	    1       False	2021-09-07 14:56:33.000000 	N/A	Disabled
+6032	3652	msedge.exe	    0x9a0785218080	8   	  - 	    1       False	2021-09-07 14:56:33.000000 	N/A	Disabled
+7008	3652	msedge.exe	    0x9a07851dc080	18  	  - 	    1       False	2021-09-07 14:56:34.000000 	N/A	Disabled
 --- snip ---
 ```
 <p align="center"><img src="_images/wp3pslist.png"></p>
@@ -171,13 +170,13 @@ Lets look at the process tree to see if there are duplicates and have a look at 
 >python3 /root/Documents/Tools/volatility3/vol.py -f physmemraw windows.pstree
 
 ```
-PID	PPID	    ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime
-644	536	        winlogon.exe	0x9a077fe9c140	3   	-   	1   	False	2021-09-07 14:24:54.000000 	N/A
-* 856	644	    fontdrvhost.ex	0x9a077ff89140	5   	-   	1   	False	2021-09-07 14:24:55.000000 	N/A
-* 428	644	    dwm.exe	        0x9a078087f080	21  	-    	1   	False	2021-09-07 14:24:56.000000 	N/A
-* 384	644	    LogonUI.exe	    0x9a078087e080	0   	-   	1   	False	2021-09-07 14:24:56.000000 	2021-09-07 14:25:29.000000 
-* 4140	644	    userinit.exe	0x9a07849b5080	0   	-   	1   	False	2021-09-07 14:25:12.000000 	2021-09-07 14:25:36.000000 
-** 4012	4140	explorer.exe	0x9a07849b7340	71  	-   	1   	False	2021-09-07 14:25:12.000000 	N/A
+PID	PPID	    ImageFileName 	Offset(V)   	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime
+644	536	      winlogon.exe	  0x9a077fe9c140	3     	-     	1     	False	2021-09-07 14:24:54.000000 	N/A
+* 856	644	    fontdrvhost.ex	0x9a077ff89140	5     	-     	1     	False	2021-09-07 14:24:55.000000 	N/A
+* 428	644	    dwm.exe	        0x9a078087f080	21    	-      	1     	False	2021-09-07 14:24:56.000000 	N/A
+* 384	644	    LogonUI.exe	    0x9a078087e080	0     	-     	1     	False	2021-09-07 14:24:56.000000 	2021-09-07 14:25:29.000000 
+* 4140	644	  userinit.exe	  0x9a07849b5080	0     	-     	1     	False	2021-09-07 14:25:12.000000 	2021-09-07 14:25:36.000000 
+** 4012	4140	explorer.exe	  0x9a07849b7340	71    	-     	1     	False	2021-09-07 14:25:12.000000 	N/A
 ```
 
 As you can see here there is another process called *userinit.exe* with a much lower PID. Lower PIDs can mean that they are among the first processes spawned when a computer is started and are generally essential for the computer to run before the user has a chance to spawn any through their actions. This *userinit.exe* was spawned by PID644 which is *winlogon.exe* and has not utilised Wow64 so safe to say this is the legitimate one and PID 8180 is the malicious process.
