@@ -57,7 +57,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 ### Forensics
 
-+ [Memory dump analysis with Volatility](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
++ [Memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
 
 ### SQLi
 
