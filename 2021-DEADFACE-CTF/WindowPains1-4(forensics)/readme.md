@@ -57,7 +57,7 @@ PE Machine	34404
 PE TimeDateStamp	Sat Apr  7 12:04:17 2068
 ```
 
-flag{Windows10_64_20210907145744}
+### flag{Windows10_64_20210907145744}
 
 <hr>
 
@@ -88,7 +88,7 @@ This can pull bag hundreds of lines which can be painful to sift through so you 
 --- SNIP ---
 ```
 
-flag{DESKTOP-IT8QNRI}
+### flag{DESKTOP-IT8QNRI}
 
 <hr>
 
