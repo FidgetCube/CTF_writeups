@@ -30,7 +30,8 @@ First command was to use Windows info since the description already told us that
 
 This will need to be run with sudo if you aren't logged in as root when performing these steps.
 >sudo python3 /root/Documents/Tools/volatility3/vol.py -f physmemraw windows.info
-```Volatility 3 Framework 2.0.0
+```
+Volatility 3 Framework 2.0.0
 Progress:  100.00		PDB scanning finished                        
 Variable	Value
 
@@ -53,7 +54,8 @@ NtMinorVersion	0
 PE MajorOperatingSystemVersion	10
 PE MinorOperatingSystemVersion	0
 PE Machine	34404
-PE TimeDateStamp	Sat Apr  7 12:04:17 2068```
+PE TimeDateStamp	Sat Apr  7 12:04:17 2068
+```
 
 flag{Windows10_64_20210907145744}
 
