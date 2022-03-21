@@ -8,6 +8,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2022 Pico CTF
 + [2021 Cyber Skills Challenge (ADF)](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
 + [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
 + [2021 DEADFACE CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF)
