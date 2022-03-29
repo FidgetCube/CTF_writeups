@@ -24,9 +24,11 @@ Browsr the folder structure looking for files of value and under /root there is 
 
 <p align="center"><img src="_images/1.png"></p>
 
-export flag.txt.enc and save it your local host. Decrypt the flag using the openssl command by adding the decrypt (-d), swap the encrypted flag as the input and text file as the output to write the decrypted flag to.
+export flag.txt.enc and save it your local host.
 
 <p align="center"><img src="_images/3.png"></p>
+
+Decrypt the flag using the openssl command by adding the decrypt argument *-d*, ensure you pass the encrypted flag as the input *-in* and stipulate a text file as the output *-out* to write the decrypted flag to. Leave the password form the original command as this is required to decrypt the flag.
 
 >openssl aes256 -d -in flag.txt.enc -out flag.txt -k unbreakablepassword1234567
 
