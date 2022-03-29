@@ -18,7 +18,7 @@ Download and extract the provided disk image.
 
 Load the .img image file into autopsy by creating a new case. Browse volume 3 and click on "file analysis" at the top of the screen.
 
-Browsr the folder structure looking for files of value and under /root there is a file called flag.txt which has been deleted, flag.txt.enc which contains encrypted flag and then ash history containing command history including the openssl encryption command used to encrypt the flag which also shows the password used.
+Browsr the folder structure looking for files of value and under /root there is a file called flag.txt which has been deleted, flag.txt.enc which contains the encrypted flag. Also of note and probably the best reason to use Autopsy here is there is hidden file displayed called *.ash_history* which contains the command history. You can see the commands used to create the flag and delete the file but most importantly is the openssl command used to encrypt the flag which also shows the password used.
 
 >openssl aes256 -salt -in flag.txt -out flag.txt.enc -k unbreakablepassword1234567
 
