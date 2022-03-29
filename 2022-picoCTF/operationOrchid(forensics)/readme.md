@@ -10,7 +10,7 @@ Download this disk image and find the flag. Note: if you are using the webshell,
 
 ## Resources
 
-[Disk Image](https://artifacts.picoctf.net/c/239/disk.flag.img.gz)
+[Disk Image download](https://artifacts.picoctf.net/c/239/disk.flag.img.gz)
 
 ## Solution
 
