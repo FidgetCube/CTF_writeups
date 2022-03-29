@@ -8,7 +8,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
-+ 2022 Pico CTF
++ [2022 picoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF)
 + [2021 Cyber Skills Challenge (ADF)](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
 + [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
 + [2021 DEADFACE CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF)
@@ -59,6 +59,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### Forensics
 
 + [Memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
++ [Disk image forensics with Autopsy and openssl decryption of a flag](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOrchid(forensics))
 
 ### SQLi
 
