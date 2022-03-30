@@ -11,7 +11,7 @@ Download this disk image, find the key and log into the remote machine. Note: if
 
 ## Resources
 
-[Link to picoCTF 2022 challenge page](https://play.picoctf.org/practice?category=4&originalEvent=70&page=1&solved=0)
+[Link to picoCTF 2022 Forensics challenges page](https://play.picoctf.org/practice?category=4&originalEvent=70&page=1&solved=0)
 
 ## Solution
 
