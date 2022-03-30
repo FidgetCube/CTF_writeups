@@ -7,7 +7,7 @@ Download this disk image, find the key and log into the remote machine. Note: if
     + Download disk image
     + Remote machine: ssh -i key_file -p 59798 ctf-player@saturn.picoctf.net
 
-** You must launch an instance of this challenge in order to get the download link and SSH command. The port number is assigned dynamically and changes each time you restart a 30 min instance of this challenge. **
+**You must launch an instance of this challenge in order to get the download link and SSH command. The port number is assigned dynamically and changes each time you restart a 30 min instance of this challenge.**
 
 ## Resources
 
