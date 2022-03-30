@@ -60,6 +60,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 + [Memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
 + [Disk image forensics with Autopsy and openssl decryption of a flag](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOrchid(forensics))
++ [Disk image forensics with Autopsy, stealing private SSH key and using it to authenticate on remote machine as root](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOni(forensics))
 
 ### SQLi
 
