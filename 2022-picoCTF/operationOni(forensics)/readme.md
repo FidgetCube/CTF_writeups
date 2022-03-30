@@ -18,7 +18,7 @@ Download this disk image, find the key and log into the remote machine. Note: if
 Download image file and extract the contents. 
 Load the image file into Autopsy as a new case and select volume 2 and click Analyze. Select "file Analysis" from the top menu bar. 
 
-<p align="center"><img src="_images/1.png"></p>
+<p align="center"><img src="_images/1_autopsy.png"></p>
 
 Browse though the folders and locate folder */root/ssh*. Inside you will find an ed25519 private and public key pair. the public key has an extension of *.pub* and the private key does not have an extension. In this case, the private key is called *id_ed25519*.
 
@@ -37,4 +37,3 @@ This will get you logged in as ctf-player into the remote machine. Doing a click
 Flag is
 
 # picoCTF{k3y_5l3u7h_dc01cec5}
-
