@@ -14,7 +14,7 @@ Download this disk image and find the flag. Note: if you are using the webshell,
 
 ## Solution
 
-If you already know how to use Autopsy you can skip straight to the <a href="#solution">challenge solution</a>
+If you already know how to use Autopsy you can skip straight to the <a href="#challengesolution">challenge solution</a>
 
 Download and extract the provided disk image.
 
@@ -77,7 +77,7 @@ Here you can navigate through the file system as though it was mounted on your l
 
 <p align="center"><img src="_images/13.png"></p>
 
-<a id="solution"></a>
+<a id="challengesolution"></a>
 Browse the folder structure looking for files of value and under /root there is a file called flag.txt which has been deleted, flag.txt.enc which contains the encrypted flag. Also of note and probably the best reason to use Autopsy here is there is hidden file displayed called *.ash_history* which contains the command history. You can see the commands used to create the flag and delete the file but most importantly is the openssl command used to encrypt the flag which also shows the password used.
 
 >openssl aes256 -salt -in flag.txt -out flag.txt.enc -k unbreakablepassword1234567
