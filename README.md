@@ -73,5 +73,6 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### Misc
 
 + [Game hacking in Python](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF/TrickOrTreat(programming))
++ [Assembly x86_64](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-bo1lersCTF/extreme_64(reversing))
 
 
