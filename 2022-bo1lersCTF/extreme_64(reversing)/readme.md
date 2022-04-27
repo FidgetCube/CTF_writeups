@@ -19,20 +19,20 @@ nc ctf.b01lers.com 9301
 
 Paste the netcat command into your terminal and you receive the following response;
 
-`
-kali:~/CTFs/boilers/extreme_64$ nc ctf.b01lers.com 9301
-Enter a level password or press enter if you don't have one:
+```
+kali:~/CTFs/boilers/extreme_64$ nc ctf.b01lers.com 9301  
+Enter a level password or press enter if you don't have one:  
 >>>> 
-`
+```
 
 We don't have a password yet so hit enter.
 
 ## Level 1:
 
-`
-================================= LEVEL 0x000 ==================================
+```
+================================= LEVEL 0x000 ==================================  
 Set rdi to 0x1337 using only one instruction.
-`
+```
 
 This is a basic assignment instruction. The pseudocode is basically move the value 1337 in hex into the variable/register named rdi.
 
