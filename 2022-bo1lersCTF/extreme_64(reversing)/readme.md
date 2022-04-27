@@ -45,8 +45,10 @@ This is a basic assignment instruction. The pseudocode is basically move the val
 
 The addition and the assignment need to be separated into 2 commands here, there may be a more elegant way but this works. First step is to add the value of rsi to the value already held in the rdi variable/register, the second step is to move that value from rdi and store it in the rax register.
 
->-->add rdi,rsi;
->-->mov rax,rdi;
+`
+-->add rdi,rsi;
+-->mov rax,rdi;
+`
 
 <p align="center"><img src="_images/level2.png"></p>
 
