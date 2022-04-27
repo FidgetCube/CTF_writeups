@@ -5,5 +5,5 @@
 ## Summary
 > I competed in this CTF on my own and finished with 160 points in equal 294th place.
 
-<p align="center"><img src="scoreboard.png"></p>
+<p align="center"><img src="Scoreboard.png"></p>
 
