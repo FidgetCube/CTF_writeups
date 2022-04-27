@@ -153,7 +153,7 @@ exit: ;
 
 Profit $$
 
-# bctf{c3rt1f13d_asm_pr0gr4mmer!!}
+# flag= bctf{c3rt1f13d_asm_pr0gr4mmer!!}
 
 A full dump of all levels in one hit can be seen below
 
