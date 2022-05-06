@@ -23,7 +23,7 @@ Similar to the last challenge, in the wild you should never execute a binary if 
 
 <p align="center"><img src="_images/check().png"></p>
 
-bctf{4lg3b r 4?! }
+bctf{4lg3b r 4?! }  
 012345678910111213
 
               if ((byte)(param_1[10] ^ 'b') == 16) {
