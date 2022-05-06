@@ -24,8 +24,20 @@ Similar to the last challenge, in the wild you should never execute a binary if 
 <p align="center"><img src="_images/check().png"></p>
 
 bctf{4lg3b**!}  
-b  c   t   f   {    4    l    g    3    b    *   *    !                 }    
-0  1  2  3  4  5  6  7  8  9  10 11 12 13
+0 = b   
+1 = c  
+2 = t  
+3 = f  
+4 = {  
+5 = 4  
+6 = l  
+7 = g  
+8 = 3  
+9 = b  
+10 = *
+11 = *  
+12 = !  
+13 = }  
 
               if ((byte)(param_1[10] ^ 'b') == 16) {
                 if (param_1[11] + -1 == 3 {
