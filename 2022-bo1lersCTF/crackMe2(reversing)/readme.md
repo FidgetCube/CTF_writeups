@@ -44,30 +44,32 @@ We can see that most of the characters in the tests are hard coded here so we ca
 11 = *  
 12 = !  
 13 = }  
-bctf{4lg3b**!}
+The flag so far is bctf{4lg3b**!}
 
-              if ((byte)(param_1[10] ^ 'b') == 16) {
-                if (param_1[11] + -1 == 3 {
-                  if (param_1[12] == '!') {
-                    cVar1 = param_1[13];
-                    if (cVar1 != '}') {
-                      cVar1 = '\0';
-                    }
+Character 11:
+```
+if ((byte)(param_1[10] ^ param_1[9]) == 0x10)
+```
+^ is the symbol for the XOR operation  
+param_1[9] = 'b'  
+0x10 = 16 in decimal  
 
-
-              if ((byte)(param_1[10] ^ param_1[9]) == 0x10) {
-                if (param_1[0xb] + -1 == (int)param_1[8]) {
-                  if (param_1[0xc] == '!') {
-                    cVar1 = param_1[0xd];
-                    if (cVar1 != '}') {
-                      cVar1 = '\0';
-                    }
-
-
-
-
-
+if ((byte)(param_1[10] ^ 'b') == 16) {
+                
+                 
 <p align="center"><img src="_images/algebraXOR.png"></p>
 
-## flag=bctf{4lg3br4!}
+Character 12:
+```
+if (param_1[0xb] + -1 == (int)param_1[8])
+```
+This converts to
+```
+if (param_1[11] + -1 == 3
+if (x -1 == 3)
+x = 4
+```
+ 
+So our 12th character is '4' which completes the flag
 
+## flag=bctf{4lg3br4!}
