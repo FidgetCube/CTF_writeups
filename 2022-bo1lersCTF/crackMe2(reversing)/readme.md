@@ -22,13 +22,14 @@ Open up Ghidra, create a new project and load the downloaded binary. Open the bi
 
 <p align="center"><img src="_images/ghidra.png"></p>
 
-Clicking on the check() function reveals the code in the Disassembler on the right hand side. Here you can see the function has one argument passed to it *param_1* which will be the stored user input from the prompt when the binary is run. 
+Clicking on the check() function reveals the code in the Decompiler on the right hand side. Here you can see the function has one argument passed to it *param_1* which will be the stored user input from the prompt when the binary is run. 
 
-Lets explain what this does in a nutshell. The function iterates over each individual character of the input performing a test, if the test passes it steps into a nested *if* statement that tests the next character in order. If the test fails due to being the wrong character, the code jumps out, stops testing and prints an error. Looking at the tests, we can see there is 14 checks performed so we know the correct key is 14 characters in length, remembering that arrays are indexed from 0 so the checks are performed as 0-13.
+Lets explain what this does in a nutshell. The function iterates over each individual character of the input performing a test, if the test passes it steps into a nested *if* statement that tests the next character in order. If the test fails due to being the wrong character, the code jumps out, stops testing and prints an error. Looking at the tests, we can see there is 14 checks performed so we know the correct key is 14 characters in length, remembering that arrays are indexed from 0 so the checks are performed as 0-13 (param_1[0] = 1st character and param_1[5] = 6th character etc). Characters 12, 13 and 14 are referenced using hexidecimal notation (0xb = 11 in decimal) to try and obscure the equation a little more but it's pretty basic and easy to convert to decimal, param_1[0xb] = param_1[11] = 12th character. 
 
 <p align="center"><img src="_images/check().png"></p>
 
-bctf{4lg3b**!}  
+We can see that most of the characters in the tests are hard coded here so we can see exactly what the first 10 characters are, as well as the last 2. The \* denotes an unknown character for the 10th and 11th characters where the correct character isn't immediately clear because there is some algebraic equation that we will need to solve to get the answer rather than bute forcing these 2 characters. 
+ 
 0 = b   
 1 = c  
 2 = t  
@@ -43,6 +44,7 @@ bctf{4lg3b**!}
 11 = *  
 12 = !  
 13 = }  
+bctf{4lg3b**!}
 
               if ((byte)(param_1[10] ^ 'b') == 16) {
                 if (param_1[11] + -1 == 3 {
