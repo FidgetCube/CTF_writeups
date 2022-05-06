@@ -61,7 +61,7 @@ if (x XOR 'b' == 16)
 We know that XOR operations are reversible so (x XOR 'b' == 16) is the same as ('b' XOR 16 == x).  
 Time for some quick python to solve this.  
 The ord() function takes a character and returns its decimal ASCII value.  ord('b') = 98  
-98 ^ 16 = 114
+98 ^ 16 = 114  
 The chr() takes a decimal value and converts it to its ASCII character. chr(114) = 'r'  
 
 So our flag progress is now bctf{4lg3br*!}
