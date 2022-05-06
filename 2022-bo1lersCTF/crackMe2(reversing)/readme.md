@@ -25,6 +25,7 @@ Similar to the last challenge, in the wild you should never execute a binary if 
 
 bctf{4lg3b r 4?! }
 012345678910111213
+
               if ((byte)(param_1[10] ^ 'b') == 16) {
                 if (param_1[11] + -1 == 3 {
                   if (param_1[12] == '!') {
