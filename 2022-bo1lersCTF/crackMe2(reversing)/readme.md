@@ -54,16 +54,25 @@ if ((byte)(param_1[10] ^ param_1[9]) == 0x10)
 param_1[9] = 'b'  
 0x10 = 16 in decimal  
 
-if ((byte)(param_1[10] ^ 'b') == 16) {
-                
-                 
+So this translates to 
+```
+if (x XOR 'b' == 16)
+```                
+We know that XOR operations are reversible so (x XOR 'b' == 16) is the same as ('b' XOR 16 == x).  
+Time for some quick python to solve this.  
+The ord() function takes a character and returns its decimal ASCII value.  ord('b') = 98  
+98 ^ 16 = 114
+The chr() takes a decimal value and converts it to its ASCII character. chr(114) = 'r'  
+
+So our flag progress is now bctf{4lg3br*!}
+
 <p align="center"><img src="_images/algebraXOR.png"></p>
 
 Character 12:
 ```
 if (param_1[0xb] + -1 == (int)param_1[8])
 ```
-This converts to
+This translates to
 ```
 if (param_1[11] + -1 == 3
 if (x -1 == 3)
@@ -72,4 +81,4 @@ x = 4
  
 So our 12th character is '4' which completes the flag
 
-## flag=bctf{4lg3br4!}
+## flag = bctf{4lg3br4!}
