@@ -53,11 +53,6 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 + [RSA Weiner attack on large *e*](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
 
-### Password cracking
-
-+ [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
-+ [.zip archive password cracking with rockyou wordlist](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/readme.md)
-
 ### Forensics
 
 + [Memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
@@ -75,9 +70,12 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 + [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
 
+### Password cracking
+
++ [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
++ [.zip archive password cracking with rockyou wordlist](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/readme.md)
+
 ### Misc
 
 + [Game hacking in Python](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF/TrickOrTreat(programming))
 + [x86_64 assembly language programming](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-bo1lersCTF/extreme_64(reversing))
-
-
