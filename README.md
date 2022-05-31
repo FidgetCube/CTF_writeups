@@ -58,6 +58,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
 + [Autopsy(Linux) guide and disk image forensics with openssl decryption](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOrchid(forensics))
 + [Disk image forensics with Autopsy, stealing private SSH key and using it to authenticate on remote machine as root](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOni(forensics))
++ [Detecting persistence in registry with Registry Explorer](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/goldenPersistence(forensics))
 
 ### Reversing
 + [Ghidra guide reversing a binary](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackme(reversing)/readme.md)
