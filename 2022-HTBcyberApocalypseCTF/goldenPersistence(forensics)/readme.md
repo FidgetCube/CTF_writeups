@@ -64,7 +64,7 @@ The first step is to de-fang the code. The final line of the script (line 73) re
 ```
 $DecryptedString|iex
 ```
-iex is short for invoke-expression which essentially runs the command. Since we dont know what is in this encrypted data, we are not going to execute it on our system. Therefore we can replace the *iex* with *write-host* and it will instead print the string, rather than execute it. Then we can analyse the commands and determine what it's doing and if it is safe to execute, or whether we need to execute it at all.
+iex is short for invoke-expression which executes the command. Since we dont know what is in this encrypted data, we are not going to execute it on our system. Therefore we can replace the *iex* with *write-host* and it will instead print the command, rather than execute it. Then we can analyse the commands and determine what it's doing and if it is safe to execute, or whether we actually need to execute it at all.
 
 ```
 $DecryptedString|write-host
@@ -72,7 +72,13 @@ $DecryptedString|write-host
 
 <p align="center"><img src="_images/de-fanged.png"></p>
 
-Now open up 
+Now open up Powershell ISE so we can run it line by line. This allows us to both debug, but also have fiull control over the code so we only execute the parts we understand. If we run the first line of this code block starting at line 62, we will get an error stating that enc. is not defined. You can see a declaration of this on line 69 so lets cut this line and paste it on line 70. 
+
+<p align="center"><img src="_images/11wrongLine.PNG"></p>
+
+Lines 62 - 67 are safe to run as they just store the values we pulled from the registry of the NTUSER.DAT file. Line 68 joins them all together in the order of 1-5. This is all safe. Then just execute sequentially from there. Here is the working script.
+
+<p align="center"><img src="_images/12solutionScript.PNG"></p>
 
 
 
