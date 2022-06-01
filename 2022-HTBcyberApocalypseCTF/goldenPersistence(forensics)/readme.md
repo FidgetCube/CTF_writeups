@@ -14,7 +14,7 @@ Unpacking the .zip file reveals a single NTUSER.DAT file so i transferred this o
 
 I needed a way to view the registry hives and keys so i used Registry Explorer which is a free download. 
 
-<p align="center"><img src="_images/3registryExlporer.PNG"></p>
+<p align="center"><img src="_images/3registryExplorer.PNG"></p>
 
 Loading up the file i receive a couple of warnings. The first asks if i want to replay transaction logs against the hive, select NO. 
 
