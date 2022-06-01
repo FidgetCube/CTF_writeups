@@ -78,24 +78,6 @@ Now open up Powershell ISE so we can run it line by line. This allows us to both
 
 Lines 62 - 67 are safe to run as they just store the values we pulled from the registry of the NTUSER.DAT file. Line 68 joins them all together in the order of 1-5. This is all safe. Then just execute sequentially from there. Here is the working script.
 
-<p align="center"><img src="_images/12solutionScript.PNG"></p>
+<p align="center"><img src="_images/13flag.PNG"></p>
 
-
-
-
-
-
-drop down list
-<details>
-  <summary>click here</summary>
-
-+ text
-+ text
-</details>
-
-
-link to named section
-name it
-<a id="zsteg"></a>
-link to it
-<a href="#zsteg">zsteg</a>
+## Flag: HTB{g0ld3n_F4ng_1s_n0t_st34lthy_3n0ugh}
