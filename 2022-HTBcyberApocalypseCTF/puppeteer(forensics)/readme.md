@@ -2,7 +2,7 @@
 
 ## Description
 
-
+<p align="center"><img src="_images/description.png"></p>
 
 ## Resources
 
