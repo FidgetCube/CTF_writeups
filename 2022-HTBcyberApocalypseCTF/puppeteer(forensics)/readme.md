@@ -40,7 +40,7 @@ The first step is to de-fang powershell, this involves removing the *iex* which 
 
 In this case there was no IEX, in fact a large part of this code can be discounted based on what we are looking for. We want to find a flag which is going to be around 20 characters long. Experience says that $stage1 and $stage2 variables most likely hold the heavily obfuscated flag. lets grab all lines relevant to those and execute them line by line in PowerShell ISE so we can control the flow and not execute anything malicious.
 
-**Disclaimer, when working with malware you should never executing anything that you don't know what it does, unless you're intentionally doing it in a sandboxed environment. Always deobfuscate and de-fang before executing and take extreme caution. Generally executing line by line, or printing line by line is safer than executing.**
+**Disclaimer, when working with malware you should never execute any code if you don't know what it does, unless you're intentionally doing it in a sandboxed environment. Always deobfuscate and de-fang before executing and take extreme caution. Generally executing line by line, or printing line by line is safer than executing a full script.**
 
 In PowerShell ISE i copied the lines of code declaring $stage1 and $stage2 and executed them. I copied the line reversing the order of $stage2 and also the line declaring $stage3, which is just joining $stage1 with the reversed $stage2.
 
