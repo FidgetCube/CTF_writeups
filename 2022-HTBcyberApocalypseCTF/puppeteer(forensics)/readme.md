@@ -6,7 +6,7 @@
 
 ## Resources
 
-[Provided files]()
+[Provided files](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-HTBcyberApocalypseCTF/puppeteer(forensics)/forensics_puppeteer.zip)
 
 ## Solution
 
