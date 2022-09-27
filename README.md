@@ -8,6 +8,8 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2022 Down Under CTF
++ 2022 Shell CTF
 + [2022 Hack The Box Cyber Apocalypse CTF](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-HTBcyberApocalypseCTF)
 + [2022 bo1lers CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-bo1lersCTF)
 + [2022 picoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF)
