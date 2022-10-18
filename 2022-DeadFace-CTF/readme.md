@@ -1,4 +1,4 @@
-![logo_deadface_ctf](https://user-images.githubusercontent.com/47488692/196339590-10721f48-060e-4524-a1ba-41df69d6b59e.png){:height="200px"}
+![logo_deadface_ctf](https://user-images.githubusercontent.com/47488692/196339590-10721f48-060e-4524-a1ba-41df69d6b59e.png){:height="200"}
 
 # DEADFACE CTF 2022
 
