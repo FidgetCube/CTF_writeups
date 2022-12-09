@@ -29,4 +29,6 @@ Time to cut that extra data out and save it into a separate file, then we can tr
 >(1.257077511100539141e+03-2.771806447551471706e+02j), (2.900101521775442961e+03+2.288139008812128395e+03j), 
 >(-2.246784516619854003e+03+1.494979014498743027e+03j), (2.643530360989742576e+02-1.703736466431772214e+03j),
 
-A little googling suggests these are complex numbers and require a Fourier Transform to be conducted in order to process these numbers as an image. I had a friend share his [python code here]() that conducted the transform
+A little googling suggests these are complex numbers and require a Fourier Transform to be conducted in order to process these numbers as an image. I had a friend share his [python code here](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-CyberSkillsChallenge/H4-StegSnow/complex_solver.ipynb) that conducted the transform. In order to run this script i saved the complex numbers into a file called wackfile.csv so it could be read and parsed by the python script. Once the code runs, a QR code is printed to the screen
+
+<p align="center"><img src="_images/qr.png"></p>
