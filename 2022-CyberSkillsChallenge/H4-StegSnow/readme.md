@@ -10,7 +10,7 @@ Download the image and run file which shows it as a valid .jpg and over 72 MB in
 
 <p align="center"><img src="_images/size.png"></p>
 
-Lets find out what is making the image this size. Open it in a hex editor and search for the header (0xFFD8) and footer (0xFFD9) to see if there is any extra data out of place.
+Lets find out what is making the image this size. Open it in a hex editor and search for the header (0xFFD8) and footer (0xFFD9) to see if there is any extra data out of place. There should be nothing after the footer as that signifies the end of the image. We can see there is a lot of data after the footer.
 
 <p align="center"><img src="_images/hex.png"></p>
 
