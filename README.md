@@ -64,7 +64,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Audio(.mp3) Null Cipher steganography decoding with Audacity](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Stereo%3F(steganography))
 + [Audio(.wav) steganography with Nakasoft Xiao (Windows) steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 + [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
-+ [Zero-width character steganography in unicode](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/BlankPage(Forensics%2C%20Steganography)/readme.md)
++ [Zero-width character steganography in unicode '<0x200f>'](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/BlankPage(Forensics%2C%20Steganography)/readme.md)
 
 ### Cryptography
 
