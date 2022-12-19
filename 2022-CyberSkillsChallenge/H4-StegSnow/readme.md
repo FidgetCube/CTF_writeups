@@ -85,3 +85,5 @@ Copy the text out and paste into sublime where when you select all, you can see 
 Save the text to a file and pass it to stegsnow for the flag.
 
 <p align="center"><img src="_images/flag.png"></p>
+
+## FLAG{w0w_7h15_i5_7r1cky}
