@@ -8,7 +8,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
-+ 2023 PicoCTF
++ [2023 PicoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2023-PicoCTF)
 + 2023 ADF Cyber Skills Association - Season 1 CTF
 + 2022 ADF Cyber Skills Challenge CTF
 + 2022 ADFCSA Season 3 CTF
@@ -84,6 +84,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### SQLi
 
 + [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
++ [SQLi with SQLite DB]()
 
 ### Password cracking
 
