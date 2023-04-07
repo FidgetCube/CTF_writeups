@@ -84,7 +84,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### SQLi
 
 + [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
-+ [SQLi with SQLite DB]()
++ [SQLi with SQLite DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2023-PicoCTF/MoreSQLi)
 
 ### Password cracking
 
