@@ -39,7 +39,9 @@ You can see below that this commands successfully dumps the users and their NTLM
 
 <p align="center"><img src="_images/1-secretsdump.png"></p>
 
-For challenge 1, we can see that the users name which starts with "s" is Sandy. We are going to focus on cracking the NT part of her password which is the second half, separated by the colon.
+## Challenge 1
+
+We can see that the users name which starts with "s" is Sandy. We are going to focus on cracking the NT part of her password which is the second half, separated by the colon.
 
 <p align="center"><img src="_images/2-sandy.png"></p>
 
@@ -67,20 +69,26 @@ Now for HashCat using the rockyou wordlist, we are using the following flags;
 hashcat -m 1000 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 ```
 
-We can see this successfully cracked the passord with the following hash:password
+We can see this successfully cracked the password with the following hash:password
 
 ```
 d3fb2c532b4ba3358ffc9beefe4a0ad6:q1w2e3r4t5y6 
 ```
 
-So the password is: ## q1w2e3r4t5y6 
+So the password is: 
+
+## sandy:q1w2e3r4t5y6 
 
 <p align="center"><img src="_images/4-hashcat.png"></p>
 
-Now for question 2 we need to attack the administrator hash
+## Challenge 2: 
+
+We need to attack the NT part of the administrator hash
 ```
 Administrator:500:aad3b435b51404eeaad3b435b51404ee:1628488e442316500a176701e0ac3c54:::
 ```
+
+Write it to a text file
 
 ```
 echo "1628488e442316500a176701e0ac3c54" > hash2.txt
@@ -92,7 +100,7 @@ I attempted the same command with the admin password, which fails.
 
 <p align="center"><img src="_images/6-adminFail.png"></p>
 
-So i used 
+So i used dive.rule to help crack the password
 ```
 sudo hashcat -m 1000 -a 0 hash2.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/dive.rule 
 ```
@@ -103,4 +111,4 @@ you can see below that dive.rule was successfull and we get the password
 
 <p align="center"><img src="_images/7-adminPw.png"></p>
 
-## Summer2021
+## administrator:Summer2021
