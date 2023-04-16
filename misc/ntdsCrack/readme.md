@@ -77,7 +77,7 @@ d3fb2c532b4ba3358ffc9beefe4a0ad6:q1w2e3r4t5y6
 
 So the password is: 
 
-## sandy:q1w2e3r4t5y6 
+### sandy:q1w2e3r4t5y6 
 
 <p align="center"><img src="_images/4-hashcat.png"></p>
 
@@ -107,8 +107,10 @@ sudo hashcat -m 1000 -a 0 hash2.txt /usr/share/wordlists/rockyou.txt -r /usr/sha
 
 you can see below that dive.rule was successfull and we get the password
 
-```1628488e442316500a176701e0ac3c54:Summer2021```
+```
+1628488e442316500a176701e0ac3c54:Summer2021
+```
 
 <p align="center"><img src="_images/7-adminPw.png"></p>
 
-## administrator:Summer2021
+### administrator:Summer2021
