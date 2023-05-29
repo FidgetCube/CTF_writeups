@@ -8,6 +8,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2023 TJ-CTF
 + [2023 PicoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2023-PicoCTF)
 + 2023 ADF Cyber Skills Association - Season 1 CTF
 + 2022 ADF Cyber Skills Challenge CTF
