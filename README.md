@@ -69,6 +69,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
 + [JPG with hidden data, Fourier transform to whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-CyberSkillsChallenge/H4-StegSnow/readme.md)
 + [Zero-width character steganography in unicode '<0x200f>'](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/BlankPage(Forensics%2C%20Steganography)/readme.md)
++ [Masked audio .ogg file with concealed QR code in spectogram with Audacity](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/SeeingIsBelieving(Forensics%2C%20Steganography)/readme.md)
 
 
 ### Cryptography
