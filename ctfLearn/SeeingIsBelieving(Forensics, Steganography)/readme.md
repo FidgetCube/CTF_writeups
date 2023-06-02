@@ -24,7 +24,7 @@ Scheme: change to Inverse Greyscale
 
 <p align="center"><img src="_images/settings.png"></p>
 
-You should start to see a QR code taking shape in the background. Increasing the frequency range reveals the rest of the data from higher frequencies not initially dsiplayed, and converting the scheme to inverse greyscale allows for better scanning of the QR code. 
+You should start to see a QR code taking shape in the background. Increasing the frequency range reveals the rest of the data from higher frequencies not initially displayed, and converting the scheme to inverse greyscale allows for better scanning of the QR code. 
 
 <p align="center"><img src="_images/qr.png"></p>
 
@@ -33,14 +33,3 @@ Take a screenshot or scan it with your phone and the QR code will reveal a [past
 <p align="center"><img src="_images/flag.png"></p>
 
 ## the_flag_is{A_sP3c7r0grAm?!}
-
-
-
-
-
-
-
-<p align="center"><img src="_images/3dcode.png"></p>
-
-<p align="center"><img src="_images/5solve.png"></p>
-
