@@ -18,7 +18,7 @@ First thing i did was upload the image to https://www.aperisolve.com/ which is o
 
 <p align="center"><img src="_images/2_aperisolve.png"></p>
 
-Apersolve suggests there is extraneous bytes before the End Of File(EOF) marker "0xd9". SO i want to adjust the images borders and see if i can reveal some more data. I navigate to https://gchq.github.io/CyberChef/ and drag the image into the input box in the top right corner. In the recipe section in the middle select "from hex" first and then "render image", these settings will display the image in the output section. So i am going to edit the parameters in the input section and watch what happens to the image in the output as i make changes. 
+Apersolve suggests there is extraneous bytes before the End Of File(EOF) marker "0xd9". So i want to adjust the images borders and see if i can reveal some more data. I navigate to https://gchq.github.io/CyberChef/ and drag the image into the input box in the top right corner. In the recipe section in the middle select "from hex" first and then "render image", these settings will display the image in the output section. So i am going to edit the parameters in the input section and watch what happens to the image in the output as i make changes. 
 
 Search for the bytes "ff c0" which is a Start Of Frame (SOF) marker for most common .jpg images and contains the width and height of the image. See the table below for all .jpg image markers
 
@@ -36,56 +36,58 @@ Because of the receipe in the middle, you should see an immediate change to the 
 
 ### The JPEG Start-Of-Frame (SOF) marker has 4 possible values:
 
->FFC0 (baseline) - This is the usual mode chosen for photos and encodes fully specified DCT blocks in groupings depending on the color/subsample options chosen
->FFC1 (extended) - This is similar to baseline, but has more than 8-bits per color stimulus
->FFC2 (progressive) - This mode is often found on web pages to allow the image to load progressively as the data is received. Each "scan" of the image progressively defines more coefficients of the DCT blocks until they're fully defined. This effectively provides more and more detail as more scans are decoded
->FFC3 (lossless) - This mode uses a simple Huffman encoding to losslessly encode the image. The only place I've seen this used is on 16-bit grayscale DICOM medical images
+>FFC0 (baseline) - This is the usual mode chosen for photos and encodes fully specified DCT blocks in groupings depending on the color/subsample options chosen  
+>FFC1 (extended) - This is similar to baseline, but has more than 8-bits per color stimulus  
+>FFC2 (progressive) - This mode is often found on web pages to allow the image to load progressively as the data is received. Each "scan" of the image progressively defines more coefficients of the DCT blocks until they're fully defined. This effectively provides more and more detail as more scans are decoded  
+>FFC3 (lossless) - This mode uses a simple Huffman encoding to losslessly encode the image. The only place I've seen this used is on 16-bit grayscale DICOM medical images  
 
 ### The bytes in a SOF (0xffc0) marker
 
 <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
   <TBODY>
   <TR>
-    <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-      src="JPEG_files/zerbul2a.gif" width=12></TD>
-    <TD vAlign=top width="100%"><FONT 
-      face="arial, helvetica">the first two bytes, the length, after the marker 
-      indicate the number of bytes, including the two length bytes, that this 
-      header contains</FONT></TD></TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">the first two bytes, the length, after the marker indicate the number of bytes, including the two length bytes,         that this header contains</FONT></TD></TR>
   <TR>
-    <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-      src="JPEG_files/zerbul2a.gif" width=12></TD>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">P 
-      -- one byte: sample precision in bits (usually 8, for baseline JPEG)</FONT></TD></TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">P -- one byte: sample precision in bits (usually 8, for baseline JPEG)</FONT></TD></TR>
   <TR>
-    <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-      src="JPEG_files/zerbul2a.gif" width=12></TD>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Y 
-      -- two bytes</FONT></TD></TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Y -- two bytes</FONT></TD></TR>
   <TR>
-    <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-      src="JPEG_files/zerbul2a.gif" width=12></TD>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">X 
-      -- two bytes</FONT></TD></TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">X -- two bytes</FONT></TD></TR>
   <TR>
-    <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-      src="JPEG_files/zerbul2a.gif" width=12></TD>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Nf 
-      -- one byte: the number of components in the image</FONT> 
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Nf -- one byte: the number of components in the image</FONT> 
       <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
         <TBODY>
         <TR>
-          <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-            src="JPEG_files/zerbul3a.gif" width=12></TD>
-          <TD vAlign=top width="100%"><FONT 
-            face="arial, helvetica">3 for color baseline JPEG images</FONT></TD></TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">3 for color baseline JPEG images</FONT></TD></TR>
         <TR>
-          <TD vAlign=baseline width=42><IMG height=12 hspace=15 
-            src="JPEG_files/zerbul3a.gif" width=12></TD>
-          <TD vAlign=top width="100%"><FONT 
-            face="arial, helvetica">1 for grayscale baseline JPEG images</FONT></TD></TR></TBODY></TABLE><FONT 
-      face="arial, helvetica"></FONT></TD></TR></TBODY></TABLE><FONT 
-face="arial, helvetica"></FONT>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">1 for grayscale baseline JPEG images</FONT></TD></TR>
+        </TBODY>
+      </TABLE><FONT face="arial, helvetica"></FONT>
+    </TD>
+  </TR>
+  </TBODY>
+</TABLE><FONT face="arial, helvetica"></FONT>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Nf times:</FONT> 
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">Component ID -- one byte</FONT></TD></TR>
+        <TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">H and V sampling factors -- one byte: H is first four bits and V is second four bits</FONT></TD></TR>
+        <TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">Quantization table number-- one byte</FONT></TD></TR>
+        </TBODY>
+      </TABLE><FONT face="arial, helvetica"></FONT>
+    </TD>
+  </TR>
+  </TBODY>
+</TABLE><FONT face="arial, helvetica"></TABLE><FONT face="arial, helvetica">
+
+The H and V sampling factors dictate the final size of the component they are associated with. For instance, the color space defaults to YCbCr and the H and V sampling factors for each component, Y, Cb, and Cr, default to 2, 1, and 1, respectively (2 for both H and V of the Y component, etc.) in the Jpeg-6a library by the Independent Jpeg Group. While this does mean that the Y component will be twice the size of the other two components--giving it a higher resolution, the lower resolution components are quartered in size during compression in order to achieve this difference. Thus, the Cb and Cr components must be quadrupled in size during decompression.
 
 Reference: https://www.geocities.ws/crestwoodsdd/JPEG.htm
 
