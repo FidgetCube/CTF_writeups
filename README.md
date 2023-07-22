@@ -8,12 +8,14 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2023 Hack The Box Business CTF
++ 2023 Google CTF
 + 2023 TJ-CTF
 + [2023 PicoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2023-PicoCTF)
 + 2023 ADF Cyber Skills Association - Season 1 CTF
 + 2022 ADF Cyber Skills Challenge CTF
 + 2022 ADFCSA Season 3 CTF
-+ 2022 DeadFace CTF
++ [2022 DeadFace CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-DeadFace-CTF)
 + 2022 BSides Melbourne CTF
 + 2022 Down Under CTF
 + 2022 Shell CTF
@@ -70,6 +72,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [JPG with hidden data, Fourier transform to whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-CyberSkillsChallenge/H4-StegSnow/readme.md)
 + [Zero-width character steganography in unicode '<0x200f>'](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/BlankPage(Forensics%2C%20Steganography)/readme.md)
 + [Masked audio .ogg file with concealed QR code in spectogram with Audacity](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/SeeingIsBelieving(Forensics%2C%20Steganography)/readme.md)
++ [Data hidden outside frame of image](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-DeadFace-CTF/KeepYourSecrets(Steganography)/readme.md)
 
 
 ### Cryptography
