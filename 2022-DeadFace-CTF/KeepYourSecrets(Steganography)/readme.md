@@ -50,9 +50,9 @@ Because of the receipe in the middle, you should see an immediate change to the 
   <TR>
     <TD vAlign=top width="100%"><FONT face="arial, helvetica">P -- one byte: sample precision in bits (usually 8, for baseline JPEG)</FONT></TD></TR>
   <TR>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Y -- two bytes</FONT></TD></TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Y -- two bytes (Height)</FONT></TD></TR>
   <TR>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">X -- two bytes</FONT></TD></TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">X -- two bytes (Width)</FONT></TD></TR>
   <TR>
     <TD vAlign=top width="100%"><FONT face="arial, helvetica">Nf -- one byte: the number of components in the image</FONT> 
       <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -65,6 +65,20 @@ Because of the receipe in the middle, you should see an immediate change to the 
       </TABLE><FONT face="arial, helvetica"></FONT>
     </TD>
   </TR>
+  <TR>
+    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Nf times:</FONT> 
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">Component ID -- one byte</FONT></TD></TR>
+        <TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">H and V sampling factors -- one byte: H is first four bits and V is second four bits</FONT></TD></TR>
+        <TR>
+          <TD vAlign=top width="100%"><FONT face="arial, helvetica">Quantization table number-- one byte</FONT></TD></TR>
+        </TBODY>
+      </TABLE><FONT face="arial, helvetica"></FONT>
+    </TD>
+  </TR>    
   </TBODY>
 </TABLE><FONT face="arial, helvetica"></FONT>
 
