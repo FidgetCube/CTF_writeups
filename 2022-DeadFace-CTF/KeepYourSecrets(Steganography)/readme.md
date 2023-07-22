@@ -24,7 +24,7 @@ Search for the bytes "ff c0" which is a Start Of Frame (SOF) marker for most com
 
 <p align="center"><img src="_images/3_ffc0.png"></p>
 
-Now count 4 bytes from the SOF marker and you should see the value "02", the 4th byte is the height marker. We are going to increment that value by 1 to "03" in order to increase the height of the image.
+Now count 4 bytes from the SOF marker and you should see the value "02 f6", the 4th and 5th bytes are the height marker (Y axis). We are going to increment the 4th byte value by 1, from "02" to "03" in order to increase the height of the image.
 
 <p align="center"><img src="_images/4_heightbyte.png"></p>
 
@@ -81,25 +81,6 @@ Because of the receipe in the middle, you should see an immediate change to the 
   </TR>    
   </TBODY>
 </TABLE><FONT face="arial, helvetica"></FONT>
-
-<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-  <TBODY>
-  <TR>
-    <TD vAlign=top width="100%"><FONT face="arial, helvetica">Nf times:</FONT> 
-      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-        <TBODY>
-        <TR>
-          <TD vAlign=top width="100%"><FONT face="arial, helvetica">Component ID -- one byte</FONT></TD></TR>
-        <TR>
-          <TD vAlign=top width="100%"><FONT face="arial, helvetica">H and V sampling factors -- one byte: H is first four bits and V is second four bits</FONT></TD></TR>
-        <TR>
-          <TD vAlign=top width="100%"><FONT face="arial, helvetica">Quantization table number-- one byte</FONT></TD></TR>
-        </TBODY>
-      </TABLE><FONT face="arial, helvetica"></FONT>
-    </TD>
-  </TR>
-  </TBODY>
-</TABLE><FONT face="arial, helvetica"></TABLE><FONT face="arial, helvetica">
 
 The H and V sampling factors dictate the final size of the component they are associated with. For instance, the color space defaults to YCbCr and the H and V sampling factors for each component, Y, Cb, and Cr, default to 2, 1, and 1, respectively (2 for both H and V of the Y component, etc.) in the Jpeg-6a library by the Independent Jpeg Group. While this does mean that the Y component will be twice the size of the other two components--giving it a higher resolution, the lower resolution components are quartered in size during compression in order to achieve this difference. Thus, the Cb and Cr components must be quadrupled in size during decompression.
 
