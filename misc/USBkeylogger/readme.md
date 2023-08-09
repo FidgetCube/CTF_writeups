@@ -8,7 +8,7 @@
 ## Resources
 
 [Challenge file](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/usbKeyLogged.pcap)  
-[Refernce for solve](https://blog.stayontarget.org/2019/03/decoding-mixed-case-usb-keystrokes-from.html)
+[Refernce for solve](https://blog.stayontarget.org/2019/03/decoding-mixed-case-usb-keystrokes-from.html)  
 [Solution script](https://github.com/FidgetCube/scripts/blob/main/decodeusbkeypress.py)
 
 ## Solution
