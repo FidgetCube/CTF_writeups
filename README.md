@@ -63,6 +63,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Autopsy(Linux) guide and disk image forensics with openssl decryption](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOrchid(forensics))
 + [Disk image forensics with Autopsy, stealing private SSH key and using it to authenticate on remote machine as root](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOni(forensics))
 + [Detecting persistence in registry with Registry Explorer](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/goldenPersistence(forensics))
++ [Parse and decode keystrokes from a USB Keylogger .pcap](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
 
 ### Steganography
 
