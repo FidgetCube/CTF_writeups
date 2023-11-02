@@ -20,6 +20,9 @@ Folder Structure:
 
 ## Solution
 
+*NTDS.DIT is the main Active Directory (AD) database file which stores information about users, groups, group memberships and password hashes for all users in the domain. It is stored on the DC, at a default location of ```%SystemRoot%\NTDS\ntds.dit```
+**The SYSTEM registry hive contains the boot key that is used to encrypt information in the ntds.dit file. Therefore the SYSTEM Registry Hive is required in order to decrypt ntds.dit file
+
 Download the files and unzip the archive
 ```
 unzip "ntds.dit1.zip"
