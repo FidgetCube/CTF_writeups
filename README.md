@@ -8,6 +8,8 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2024 ADF Cyber Skills Challenge
++ 2024 Down Under CTF
 + 2023 DeadFace CTF
 + 2023 Down Under CTF
 + 2023 ADF Cyber Skills Association - Season 3 CTF
@@ -28,7 +30,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [2021 Cyber Skills Challenge (ADF)](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
 + [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
 + [2021 DEADFACE CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF)
-+ 2021 DUCTF 
++ 2021 Down Under CTF 
 + 2021 CorCTF
 + 2021 1treeCTF (custom Defence CTF)
 + 2021 WeCTF
