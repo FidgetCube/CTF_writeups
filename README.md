@@ -62,16 +62,16 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### Threat Hunting
 + [Hunting through event logs for evidence of Malware](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/puppeteer(forensics))
 
-### Forensics
+### Traffic Analysis
++ [Parse and decode keystrokes from a USB Keylogger .pcap](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
 
+### Forensics
 + [Memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
 + [Autopsy(Linux) guide and disk image forensics with openssl decryption](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOrchid(forensics))
 + [Disk image forensics with Autopsy, stealing private SSH key and using it to authenticate on remote machine as root](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF/operationOni(forensics))
 + [Detecting persistence in registry with Registry Explorer](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/goldenPersistence(forensics))
-+ [Parse and decode keystrokes from a USB Keylogger .pcap](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
 
 ### Steganography
-
 + [Audio(.mp3) Null Cipher steganography decoding with Audacity](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Stereo%3F(steganography))
 + [Audio(.wav) steganography with Nakasoft Xiao (Windows) steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 + [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
@@ -80,9 +80,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Masked audio .ogg file with concealed QR code in spectogram with Audacity](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/SeeingIsBelieving(Forensics%2C%20Steganography)/readme.md)
 + [Data hidden outside frame of image](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-DeadFace-CTF/KeepYourSecrets(Steganography)/readme.md)
 
-
 ### Cryptography
-
 + [RSA Weiner attack on large *e*](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
 
 ### Reversing
@@ -93,17 +91,14 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [BlindXSS, JWT capture using ngrok, priv esc using burpsuite](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/kryptosSupport(web))
 
 ### SQLi
-
 + [SQL injection with PostGres DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Stonks%20Street%20Journal(web%2C%20expl))
 + [SQLi with SQLite DB](https://github.com/FidgetCube/CTF_writeups/tree/main/2023-PicoCTF/MoreSQLi)
 
 ### Password cracking
-
 + [.pdf password cracking with custom wordlist](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF/Result(misc,crypto))
 + [.zip archive password cracking with rockyou wordlist](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/File101(forensics)/readme.md)
 + [NTDS.dit cracking using Impacket and dive.rule](https://github.com/FidgetCube/CTF_writeups/tree/main/misc/ntdsCrack)
 
 ### Misc
-
 + [Game hacking in Python](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF/TrickOrTreat(programming))
 + [x86_64 assembly language programming](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-bo1lersCTF/extreme_64(reversing))
