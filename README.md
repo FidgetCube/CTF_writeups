@@ -8,7 +8,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
-+ 2024 ADF Cyber Skills Challenge
++ [2024 ADF Cyber Skills Challenge](https://github.com/FidgetCube/CTF_writeups/tree/main/2024-CyberSkillsChallenge)
 + 2024 Down Under CTF
 + 2023 DeadFace CTF
 + 2023 Down Under CTF
@@ -100,7 +100,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [NTDS.dit cracking using Impacket and dive.rule](https://github.com/FidgetCube/CTF_writeups/tree/main/misc/ntdsCrack)
 
 ### SOCMINT
-+ [Discord](#)
++ [Discord](https://github.com/FidgetCube/CTF_writeups/tree/main/2024-CyberSkillsChallenge/NexusCity-NexusHub)
 
 ### Misc
 + [Game hacking in Python](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF/TrickOrTreat(programming))
