@@ -35,7 +35,7 @@ The final piece came from a voice channel. CLicking in to any voice channel and 
 
 <p align="center"><img src="_images/4.png"></p>
 
-You can click on the sound icon to play the sound which basically revealed some spoke words but sped up so fast it sounded like a chipmonk. 
+You can click on the sound icon to play the sound which revealed some words but sped up so fast it sounded like a chipmonk. 
 
 <p align="center"><img src="_images/5.png"></p>
 
@@ -53,3 +53,9 @@ and_inn0v4tion}
   ```
 
 <p align="center"><img src="_images/8.png"></p>
+
+## FLAG{is_h1dd3n_in_th3_n3xus_0f_urban_t3chnOlogy_and_inn0v4tion}
+
+
+
+
