@@ -6,7 +6,7 @@
 
 ## Resources
 
-[Provided challenge file]()
+[Provided challenge file](https://github.com/FidgetCube/CTF_writeups/blob/main/2024-NSWGovCTF/stego-christmasEmail/Ginger_Bread_Man.zip)
 
 ## Solution
 
