@@ -76,7 +76,7 @@ Submit the flag as flag{COMPUTER-NAME}.
 Again using Volatility3 for this one, we are going to access Windows enviroment variables using the envars plugin in order to pull out the computer name.
 >python3 vol.py -f /root/Documents/CTFs/DEADFACE2021/memdump/physmemraw windows.envars
 
-This can pull bag hundreds of lines which can be painful to sift through so you can pipe to grep and search for "COMPUTERNAME"
+This can pull back hundreds of lines which can be painful to sift through so you can pipe to grep and search for "COMPUTERNAME"
 >python3 vol.py -f /root/Documents/CTFs/DEADFACE2021/memdump/physmemraw windows.envars | grep "COMPUTERNAME"
 
 ```
