@@ -8,6 +8,8 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2025 HTB CTF Operation Blackout - Global Cyber Skills Benchmark
++ 2025 HTB CTF - Tales from Eldoria
 + 2024 NSW Gov CTF
 + [2024 ADF Cyber Skills Challenge](https://github.com/FidgetCube/CTF_writeups/tree/main/2024-CyberSkillsChallenge)
 + 2024 Down Under CTF
