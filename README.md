@@ -66,7 +66,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Hunting through event logs for evidence of Malware](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/puppeteer(forensics))
 
 ### Traffic Analysis
-+ [Parse and decode keystrokes from a USB Keylogger .pcap](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
++ [PCAP analysis - Parse and decode keystrokes from a USB Keylogger](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
 
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
