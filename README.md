@@ -67,7 +67,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 ### Network Traffic Analysis
 + [PCAP analysis - Parse and decode keystrokes from a USB Keylogger](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
-+ [PCAP analysis - Ethereum Cryptocurrency Theft (HTB Sherlock reachKart)(https://github.com/FidgetCube/HackTheBox_writeups/blob/main/sherlocks/reachKart/readme.md)
++ [PCAP analysis - Ethereum Cryptocurrency Theft (HTB Sherlock reachKart)](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/sherlocks/reachKart/readme.md)
 
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
