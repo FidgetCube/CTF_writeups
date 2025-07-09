@@ -1,4 +1,4 @@
-
+Network
 # Welcome
 
 These are just a few writeups from some interesting challenges i have solved. I don't do these often because i don't like to spend time creating writeups when i could be solving more challenges.
@@ -65,8 +65,9 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### Threat Hunting
 + [Hunting through event logs for evidence of Malware](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/puppeteer(forensics))
 
-### Traffic Analysis
+### Network Traffic Analysis
 + [PCAP analysis - Parse and decode keystrokes from a USB Keylogger](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
++ [PCAP analysis - Ethereum Cryptocurrency Theft (HTB Sherlock reachKart)()
 
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
