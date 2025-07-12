@@ -71,6 +71,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 ### Malware Analysis
 + [VersaMem - Volt Typhoon malware exploiting zero-day CVE-2024-39717](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/sherlocks/electricBreeze-2/readme.md)
++ [AgentTesla - RTF sample Infostealer](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/academy/malicious%20document%20analysis/rtf.md)
 
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
