@@ -69,6 +69,9 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [PCAP analysis - Parse and decode keystrokes from a USB Keylogger](https://github.com/FidgetCube/CTF_writeups/blob/main/misc/USBkeylogger/readme.md)
 + [PCAP analysis - Ethereum Cryptocurrency Theft (HTB Sherlock reachKart)](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/sherlocks/reachKart/readme.md)
 
+### Malware Analysis
++ [VersaMem - Volt Typhoon malware exploiting zero-day CVE-2024-39717](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/sherlocks/electricBreeze-2/readme.md)
+
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
 + Linux memory dump (.elf) analysis with Volatility3
