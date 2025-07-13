@@ -73,6 +73,11 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [VersaMem - Volt Typhoon malware exploiting zero-day CVE-2024-39717](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/sherlocks/electricBreeze-2/readme.md)
 + [AgentTesla - RTF sample Infostealer](https://github.com/FidgetCube/HackTheBox_writeups/blob/main/academy/malicious%20document%20analysis/rtf.md)
 
+### Reversing
++ [Ghidra - guide reversing to a binary](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackme(reversing)/readme.md)
++ [Reversing a binary with algebraic password validation using Ghidra](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackMe2(reversing)/readme.md)
++ [Ghidra - Reversing a binary making syscalls (HTB GraveRobber)]()
+
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
 + Linux memory dump (.elf) analysis with Volatility3
@@ -92,10 +97,6 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 ### Cryptography
 + [RSA Weiner attack on large *e*](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
-
-### Reversing
-+ [Ghidra guide reversing a binary](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackme(reversing)/readme.md)
-+ [Reversing a binary with algebraic password validation using Ghidra](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackMe2(reversing)/readme.md)
 
 ### Web
 + [BlindXSS, JWT capture using ngrok, priv esc using burpsuite](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/kryptosSupport(web))
