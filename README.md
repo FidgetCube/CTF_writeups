@@ -81,7 +81,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 ### Reversing
 + [Ghidra - guide reversing to a binary](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackme(reversing)/readme.md)
 + [Reversing a binary with algebraic password validation using Ghidra](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-bo1lersCTF/crackMe2(reversing)/readme.md)
-+ Ghidra - Reversing a binary making syscalls (HTB GraveRobber)
++ [Ghidra - Reversing a binary making syscalls (HTB GraveRobber)](https://github.com/FidgetCube/HackTheBox_writeups/tree/main/challenges/graveRobber)
 
 ### Forensics
 + [Windows memory dump analysis with Volatility3](https://github.com/FidgetCube/CTF_writeups/blob/main/2021-DEADFACE-CTF/WindowPains1-4(forensics)/readme.md)
