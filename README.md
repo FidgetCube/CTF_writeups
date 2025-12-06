@@ -92,9 +92,10 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [Audio(.mp3) Null Cipher steganography decoding with Audacity](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Stereo%3F(steganography))
 + [Audio(.wav) steganography with Nakasoft Xiao (Windows) steganography tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Matrix1999-C00rupt3d(steganography))
 + [Video(.mp4) steganography with videostego tool](https://github.com/FidgetCube/CTF_writeups/tree/main/2024-NSWGovCTF/stego-christmasEmail)
-+ [Whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
-+ [JPG with hidden data, Fourier transform to whitespace steganography with stegsnow](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-CyberSkillsChallenge/H4-StegSnow/readme.md)
-+ [Zero-width character steganography in unicode '<0x200f>'](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/BlankPage(Forensics%2C%20Steganography)/readme.md)
++ [Whitespace steganography with Stegsnow](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/whitesnow(steganography))
++ [Whitespace steganography with Stegsnow - JPG with hidden data & Fourier transform](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-CyberSkillsChallenge/H4-StegSnow/readme.md)
++ [Unicode Zero-width character steganography '<0x200f>'](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/BlankPage(Forensics%2C%20Steganography)/readme.md)
++ Unicode invisible character steganography - Google Calendar campaign, ADFCSC HackWeb Challenge
 + [Masked audio .ogg file with concealed QR code in spectogram with Audacity](https://github.com/FidgetCube/CTF_writeups/blob/main/ctfLearn/SeeingIsBelieving(Forensics%2C%20Steganography)/readme.md)
 + [Data hidden outside frame of JPEG image](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-DeadFace-CTF/KeepYourSecrets(Steganography)/readme.md)
 
