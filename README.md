@@ -8,12 +8,14 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2025 ADF Cyber Skills Challenge
 + 2025 HTB CTF - Holmes CTF
 + 2025 HTB CTF - Operation Blackout Global Cyber Skills Benchmark
 + 2025 HTB CTF - Tales from Eldoria
 + 2024 NSW Gov CTF
 + [2024 ADF Cyber Skills Challenge](https://github.com/FidgetCube/CTF_writeups/tree/main/2024-CyberSkillsChallenge)
 + 2024 Down Under CTF
++ 2023 ADF Cyber Skills Challenge
 + 2023 DeadFace CTF
 + 2023 Down Under CTF
 + 2023 ADF Cyber Skills Association - Season 3 CTF
@@ -22,7 +24,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + 2023 TJ-CTF
 + [2023 PicoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2023-PicoCTF)
 + 2023 ADF Cyber Skills Association - Season 1 CTF
-+ 2022 ADF Cyber Skills Challenge CTF
++ 2022 ADF Cyber Skills Challenge
 + 2022 ADFCSA Season 3 CTF
 + [2022 DeadFace CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-DeadFace-CTF)
 + 2022 BSides Melbourne CTF
@@ -31,7 +33,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 + [2022 Hack The Box Cyber Apocalypse CTF](https://github.com/FidgetCube/CTF_writeups/blob/main/2022-HTBcyberApocalypseCTF)
 + [2022 bo1lers CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-bo1lersCTF)
 + [2022 picoCTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-picoCTF)
-+ [2021 Cyber Skills Challenge (ADF)](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
++ [2021 ADF Cyber Skills Challenge](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge) 
 + [2021 CyberSecurityRumble CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSecurityRumble-CTF)
 + [2021 DEADFACE CTF](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-DEADFACE-CTF)
 + 2021 Down Under CTF 
