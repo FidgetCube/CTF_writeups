@@ -9,6 +9,8 @@ These are just a few writeups from some interesting challenges i have solved. I 
   <summary>Click to reveal</summary>
   
 + 2025 ADF Cyber Skills Challenge
++ 2025 HTB x NAB CTF
++ 2025 HTB x ADF Hackathon
 + 2025 HTB CTF - Holmes CTF
 + 2025 HTB CTF - Operation Blackout Global Cyber Skills Benchmark
 + 2025 HTB CTF - Tales from Eldoria
