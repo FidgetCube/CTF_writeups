@@ -197,7 +197,7 @@ def select_users_by_username(self, username):
 
 User input (search term) was inserted directly into the SQL query without sanitisation, meaning this was succeptable to SQLi, and can be exploited to leak the encrypted passwords. 
 
-<p align="center"><img src="preview.png"/><br>
+<p align="center"><img src="/_images/preview.png"/><br>
   <em>Verifying the information displayed on the scoreboard</em></p>
 
 ---
@@ -283,8 +283,8 @@ ID | Username | Password Ciphertext
 
 This exposed the encrypted passwords stored in the database.
 
-<p align="center"><img src="scoreboard.png"/><br>
-  <em>Leaking the encrypted passwords on the scoreboard</em></p>
+<p align="center"><img src="/_images/scoreboard.png"/><br>
+  <em>Leaking the encrypted passwords on the scoreboard via SQLi</em></p>
 
 ---
 
@@ -406,8 +406,8 @@ curl -s \
 
 ## Profit
 
-<p align="center"><img src="solve.png"/><br>
-  <em>Leaking the encrypted passwords on the scoreboard</em></p>
+<p align="center"><img src="/_images/solve.png"/><br>
+  <em>Revealing the flag</em></p>
 
 
 
