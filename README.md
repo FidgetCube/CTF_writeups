@@ -8,6 +8,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 <details>
   <summary>Click to reveal</summary>
   
++ 2026 NSWPol x HTB CTF
 + [2025 ADF Cyber Skills Challenge](https://github.com/FidgetCube/CTF_writeups/tree/main/2025-CyberSkillsChallenge)
 + 2025 HTB x NAB CTF
 + 2025 HTB x ADF Hackathon
