@@ -8,8 +8,6 @@ The challenge presented a web application, and some source code files, themed ar
 
 The intent was to review the source code, identify the weakness or vulnerability in the implementation of the crypto on the website, leak the admin password (presumably through SQLi), and then submit a request to an exposed API endpoint authenticating as admin to receive the flag.
 
-A review of the supplied source code revealed that passwords were being encrypted using AES-CTR and stored in a database. Further analysis identified both a SQL injection vulnerability and a catastrophic AES-CTR nonce reuse vulnerability, which together allowed recovery of the administrator password and retrieval of the flag.
-
 ---
 
 # Table of Contents
