@@ -104,6 +104,7 @@ These are just a few writeups from some interesting challenges i have solved. I 
 
 ### Cryptography
 + [RSA Weiner attack on large *e*](https://github.com/FidgetCube/CTF_writeups/tree/main/2021-CyberSkillsChallenge/Not_a_normal_RSA(cryptography))
++ [AES-CTR nonce re-use vulnerability](https://github.com/FidgetCube/CTF_writeups/blob/main/2026-NSWPolCTF/imposter(crypto)/readme.md)
 
 ### Web
 + [BlindXSS, JWT capture using ngrok, priv esc using burpsuite](https://github.com/FidgetCube/CTF_writeups/tree/main/2022-HTBcyberApocalypseCTF/kryptosSupport(web))
